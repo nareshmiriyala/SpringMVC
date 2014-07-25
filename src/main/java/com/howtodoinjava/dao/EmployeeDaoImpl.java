@@ -9,7 +9,8 @@ import org.springframework.stereotype.Repository;
 import com.dellnaresh.entity.EmployeeEntity;
 
 @Repository
-public class EmployeeDaoImpl implements EmployeeDAO  {
+public class EmployeeDaoImpl  implements EmployeeDAO  {
+    private static final long serialVersionUID = 1L;
 
 	@Autowired
     private SessionFactory sessionFactory;
